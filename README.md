@@ -1,2 +1,2 @@
 # ejemplos-bootstrap
-ejemplos
+estos son ejemplos son ejemplos de boostrap 
