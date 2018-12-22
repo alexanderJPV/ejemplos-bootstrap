@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>grid_container</title>
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- css styles -->
+    <style>
+        .fondo{
+            background: blue;
+        }
+        .borde{
+            border: 1px steelblue solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, world</h1>
+    <div class="container fondo">
+        <p>Este es un texto de mierda</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col borde">1</div>
+            <div class="col borde">2</div>
+            <div class="col  borde">3</div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4  col-lg-2 col-xl-12  borde">1</div>
+            <div class="col-sm-6 col-md-4  col-lg-1 col-xl-12  borde">2</div>
+            <div class="col-sm-12 col-md-4 col-lg-9 col-xl-12  borde">3</div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col borde">1</div>
+            <div class="col borde">2</div>
+            <div class="w-100"></div>
+            <div class="col borde">3</div>
+        </div>
+    </div>
+
+</body>
+</html>
