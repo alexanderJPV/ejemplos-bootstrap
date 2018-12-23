@@ -1,0 +1,92 @@
+.container{
+    max-width: 960px;
+}
+/*
+ * Editando encabezado transparente
+ */
+
+ .site-header {
+    background:  rgba(0, 0, 0, .85);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a{
+      color: #999;
+      transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+/*  
+ * Dibujando dispositivos
+ */
+
+ .product-device {
+    position: absolute;
+    background-color: #333;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    border-radius: 21px;
+    transform: rotate(30deg);    
+  }
+  .product-device::before {
+    position: absolute;
+    /* background-color: rgba(255, 255, 255, .1); */
+    background-image: url("assets/img/bootstrap-themes.png");
+    content: "";
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    border-radius: 5px;    
+  }    
+.product-device-2 {    
+    background-color:#e5e5e5;
+    top: -25%;
+    left: 10%;
+    right: auto;
+    bottom: 0;
+  }
+  .contenido1{
+    width: 80%;
+    height: 300px; 
+    border-radius: 21px 21px 0 0;
+  }
+  img{
+    border-radius: 21px 21px 0 0;
+  }
+  /*
+ * Utilitarios extras Extras
+ */
+
+ /* 
+.border-top {
+     border-top: 1px solid #e5e5e5; 
+}
+.border-bottom { 
+    border-bottom: 1px solid #e5e5e5; 
+}
+
+.box-shadow {
+     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
+}
+.flex-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+} */
+@media (min-width: 768px) 
+{
+    .flex-md-equal > * {     
+        flex: 1;
+    }
+}
+.overflow-hidden {
+    overflow: hidden; 
+} 
+.footpos{
+    position:relative;
+}
