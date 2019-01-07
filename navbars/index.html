@@ -18,7 +18,7 @@
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Never expand</a>
+        <a class="navbar-brand" href="#">Nunca expandido</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navex">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,12 +42,93 @@
                     </div>
                 </li>                
             </ul>
-            <form class="form-check-inline" >
-                <input type="text" placeholder="Buscar">
-                <button>Busaar</button>
+            <form class="form-check-inline my-2 my-md-0" >
+                <input class="form-control" type="text" placeholder="Buscar">                
             </form>
         </div>
     </nav>
+
+    <nav class="navbar navbar-expand navbar-dark bg-dark" >        
+        <a class="navbar-brand" href="#">Siempre Expandido</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav mr-auto" >
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Casa</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" href="#">Enlaze</a>
+                </li>
+            </ul>
+            <form class="form-check-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Buscar">
+            </form>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Expandir en sm (pequeño)</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ir">
+            <span class="navbar-toggler-icon" ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="ir">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Casa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Enlaze</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Desactivado</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="irdes" data-toggle="dropdown">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="irdes">
+                        <a class="dropdown-item" href="#">Accion</a>
+                        <a class="dropdown-item" href="#">Anotar accion</a>
+                        <a class="dropdown-item" href="#">Tambien algo aqui</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-check-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Buscar">
+            </form>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Espandir en md(mediano)</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Casa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Enlaze</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Desactivado</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="irdes1" data-toggle="dropdown">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="irdes1">
+                        <a class="dropdown-item" href="#">Accion</a>
+                        <a class="dropdown-item" href="#">Anotar accion</a>
+                        <a class="dropdown-item" href="#">Tambien algo aqui</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-check-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Buscar">
+            </form>
+        </div>
+    </nav>
+
 
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="assets/js/vendor/popper.min.js"></script>
