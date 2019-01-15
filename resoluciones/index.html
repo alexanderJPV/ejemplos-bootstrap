@@ -6,7 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Resoluciones</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ahhh ratita te estaba explicando
+        en bootstrap todo viene dentro de un contenedor(contanier)    
+        y este container se divide en 12 rejillas. Estas 12 rejillas pueden tener 
+        4 resoluciones y uno por defecto
+        por defecto       =>   < 544px
+        sm(small=pequeño) => que va desde 544px hasta 768px
+        md(medium=mediano) => que va desde 768px hasta 992px
+        lg(long=grande) => que va desde 992px hasta 1200px
+        xl(extra long=muy grande) => que va desde 1200 hasta el infinito :v
+    -->
     <style>
+        /* Colocamos un borde a todos las rejillas(grid) y le damos un alto (height: 50px;)
+            y cramos 4 clases con 3 colores para distingirlos
+         */
         .borde{
             border: 1px black solid; 
             text-align: center;
@@ -27,18 +40,40 @@
     </style>
 </head>
 <body>
-        <div class="container">
-            <div class="row">
-                <div class="borde color4 col-sm-12">HEADER</div>
-            </div>
-            <div class="row">
-                <div class="borde color1 col-sm-6  col-md-3 hidden-xs-down">IZQUIERDA</div>
-                <div class="borde color2 col-sm-6  col-md-6">CONTENIDO</div>
-                <div class="borde color3 col-sm-12 col-md-3">DERECHA</div>
-            </div>
-            <div class="row">
-                <div class="borde color4 col-sm-12">FOOTER</div>
-            </div>
+    <!-- Creamos un container con 3 filas-->
+    <div class="container">
+        <div class="row">
+            <!-- Este fila tendra una columna con la clase borde, color4, y 
+                la resolucion por defecto tendra la forma q tiene desde 544px de resulucion hasta el infinito 
+                si te das de cuenta no cambiara para nada
+            -->
+            <div class="borde color4 col-12">HEADER</div>
         </div>
+        <div class="row">
+            <!-- Esta fila1 tendra una columna que cuando la resolucion sea sm(pequeño entre 544px - 768px) tendra tamaño 6 
+                                                  cuando la resulucion sea md(mediaano entre 768px - 992px ) tendra tamaño 3 en si mas pequeño
+                Esta clase "hidden-xs-down" te dice q cuando la resolucion sea menor a 544 se ocultara o desparecera
+                ojo esto tiene una tabla para ocultar elementos en todas las resolucione que se quiera
+            -->                                        
+            <div class="borde color1 col-sm-6  col-md-3 hidden-xs-down">IZQUIERDA</div>
+
+            <!-- Esta fila2  tendra una columna que cuando la resolucion sea sm(pequeño entre 544px - 768px) tendra tamaño 6 
+                                                  cuando la resulucion sea md(mediaano entre 768px - 992px ) tendra tamaño 6 igual-->
+            <div class="borde color2 col-sm-6  col-md-6">CONTENIDO</div>
+            <!-- Esta fila3 
+                tendra una columna que cuando la resolucion sea sm(pequeño entre 544px - 768px) tendra tamaño 12
+                en aca pasa q como el tamaño es 12 y es lo maximo q puede valer una columna baja abajo
+                                                  cuando la resulucion sea md(mediaano entre 768px - 992px ) tendra tamalo 3 en si mas pequeño
+            -->
+            <div class="borde color3 col-sm-12 col-md-3">DERECHA</div>
+        </div>
+        <div class="row">
+               <!-- Este fila tendra una columna con la clase borde, color4, y 
+                la resolucion por defecto tendra la forma q tiene desde 544px de resulucion hasta el infinito 
+                si te das de cuenta no cambiara para nada
+            -->
+            <div class="borde color4 col-12">FOOTER</div>
+        </div>
+    </div>
 </body>
 </html>
