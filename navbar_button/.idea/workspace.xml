@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1391b9e-2e54-4d11-8b44-8a2973c149a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../bootstrap-4.0.0/docs/4.0/examples/jumbotron/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap-4.0.0/docs/4.0/examples/jumbotron/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootstrap-4.0.0/docs/4.0/examples/navbar-bottom/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap-4.0.0/docs/4.0/examples/navbar-bottom/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../navbar-menu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../navbar-menu/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="f1391b9e-2e54-4d11-8b44-8a2973c149a2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -66,7 +62,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,11 +88,12 @@
       <updated>1547549298906</updated>
       <workItem from="1547549305858" duration="214000" />
       <workItem from="1547667388405" duration="12000" />
+      <workItem from="1548438137311" duration="83000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226000" />
+    <option name="totallyTimeSpent" value="309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="-11" width="1851" height="1092" extended-state="6" />
